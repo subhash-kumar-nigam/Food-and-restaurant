@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6 {
+ font-weight: 200;
+ color: #222;
+}
+a {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 200;
+}
+a:hover {
+    color: orange;
+
+}
+img {
+    min-width: 100%;
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.shadow-on-hover {
+    transition: all 0.4s;
+}
+.shadow-on-hover:hover {
+  box-shadow: 0 10px 40px black;  
+}
+/* btn  */
+.btn {
+    border: 0;
+    padding: 14px 38px;
+}
+.btn-brand {
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    border-color: red;
+}
+.btn-brand:hover{
+    background-color: black;
+    color: aqua;
+}
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+/* slider  */
+.slide-1{
+    background: linear-gradient(black, rgba(0, 0, 0, 0.101)), url(../images/cover\ p.jpg);
+}
+.slide-2{
+    background: linear-gradient(black, rgba(0, 0, 0, 0.101)), url(../images/cover\ b.jpg);
+}
+
+.slide-3{
+    background: linear-gradient(black, rgba(0, 0, 0, 0.101)), url(../images/cover.jpeg);
+}
+/* #heroSlider h6::after,
+#heroslider h6::before{
+    content: " ";
+    width: 20px;
+    height: 4px;
+    background-color: white;
+    display: inline-block;
+} */
+
+/* section  */
+#about .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: orange;
+}
+
+/* intro text  */
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+/* menu  */
+#menu .nav-pills .nav-link {
+    background-color: white;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: black;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px black;
+}
+#menu .nav-pills .nav-link.active{
+    background-color: orange;
+    color: white;
+}
+  
+
+/* feactures  */
+#features {
+    background: linear-gradient(black, rgba(0, 0, 0, 0.101)), url(../images/feactures.jpeg);
+
+}
+.feature{
+    border: 2px solid white;
+}
+.feature .feature-icon{
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    color: white;
+    font-size: 34px;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+}
+
+/* footer  */
+footer  {
+    background: linear-gradient(black, rgba(0, 0, 0, 0.101)), url(../images/footer1.jpeg);  
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+footer p {
+    color: white;
+
+}
+footer a {
+    color: white;
+    font-size: 30px;
+}
